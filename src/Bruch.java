@@ -18,7 +18,10 @@ public class Bruch {
     }
 
     public double toDecimal() {
+        if(denominator > 0)
         return numerator / ((double)denominator);
+        else
+            return 0;
     }
 
     public String print() {
