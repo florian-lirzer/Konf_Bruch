@@ -6,6 +6,8 @@ public class BruchDemoApp {
         Bruch b15 = new Bruch(1, 5);
         Bruch b23 = new Bruch(2, 3);
 
+
+
         System.out.println("b24.print() = " + b24.print());
         System.out.println("b24.toDecimal() = " + b24.toDecimal());
         System.out.println("b15.print() = " + b15.print());
